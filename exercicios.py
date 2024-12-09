@@ -3,6 +3,12 @@
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+# num1 = int(input('Insira o primeiro fator:'))
+# num2 = int(input('Insira o segundo fator:'))
+
+# print('A multiplicação dá', num1*num2)
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -13,6 +19,10 @@
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+import math
+raio = float(input('Insira o raio do círculo:'))
+area = (math.pi*raio**2)
+print(f'A área do círculo é {area:.2f}')
 
 # #### Strings (`str`)
 

@@ -19,10 +19,13 @@
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-import math
-raio = float(input('Insira o raio do círculo:'))
-area = (math.pi*raio**2)
-print(f'A área do círculo é {area:.2f}')
+try:
+    import math
+    raio = float(input('Insira o raio do círculo:'))
+    area = (math.pi*raio**2)
+    print(f'A área do círculo é {area:.2f}')
+except:
+    print('Insira um valor válido')
 
 # #### Strings (`str`)
 
